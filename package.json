@@ -1,0 +1,24 @@
+{
+  "name": "project-102-mizuxe-self-help-book",
+  "version": "1.0.0",
+  "description": "self-help-reader",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/style.scss css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Salman-Farshe/Mizuxe.git"
+  },
+  "author": "Salma Farshe\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[Dn Farshe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Salman-Farshe/Mizuxe/issues"
+  },
+  "homepage": "https://github.com/Salman-Farshe/Mizuxe#readme",
+  "devDependencies": {
+    "bootstrap": "^5.0.0-beta3",
+    "jquery": "^3.6.0",
+    "node-sass": "^5.0.0"
+  }
+}
