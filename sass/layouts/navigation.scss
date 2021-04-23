@@ -1,0 +1,29 @@
+.navbar{
+    background-color: $color-light;
+    box-shadow: 0 0.1rem 0.5rem $primary-color;
+    opacity: 0.9;
+    margin: 0rem auto;
+
+    h3{
+        font-size: 1.4rem;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+
+    &-nav{
+        
+        & .nav-item{
+            margin: auto 1rem;
+
+            & .nav-link{
+                font-size: 1rem;
+                font-weight: 600;
+
+                &:hover,
+                &:focus{
+                    color: $primary-overlay;
+                }
+            }
+        }
+    }
+}
