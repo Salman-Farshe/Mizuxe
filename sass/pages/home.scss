@@ -36,3 +36,14 @@
         background-color: $primary-dark;
     }
 }
+
+
+/* box section  */
+.box{
+    background-color: $color-light;
+    .card{
+        .card-body{
+            padding: 2rem 0rem;
+        }
+    }
+}

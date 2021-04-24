@@ -57,3 +57,9 @@ body {
 .news button {
   color: #fff;
   background-color: #2082d3; }
+
+/* box section  */
+.box {
+  background-color: #fff; }
+  .box .card .card-body {
+    padding: 2rem 0rem; }
