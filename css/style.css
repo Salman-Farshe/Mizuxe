@@ -71,3 +71,21 @@ body {
   width: 50%;
   margin: auto;
   border-bottom: 1px solid #3292a6cc; }
+
+.about .accordion .card {
+  border: none; }
+
+.about .accordion .card-header {
+  cursor: pointer;
+  width: 20%;
+  margin: auto;
+  border: none; }
+  @media only screen and (max-width: 1000px) {
+    .about .accordion .card-header {
+      width: 30%; } }
+  @media only screen and (max-width: 800px) {
+    .about .accordion .card-header {
+      width: 60%; } }
+
+.about .accordion .card-body {
+  border: none; }

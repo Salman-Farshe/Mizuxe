@@ -57,4 +57,29 @@
         margin: auto;
         border-bottom: 1px solid $primary-overlay;
     }
+
+    // accordion section
+    .accordion{
+        .card{
+            border: none;
+        }
+        .card-header{
+            cursor: pointer;
+            width: 20%;
+            margin: auto;
+            border: none;
+
+            @media only screen and (max-width: 1000px){
+                width: 30%;
+            }
+
+            @media only screen and (max-width: 800px){
+                width: 60%;
+            }
+        }
+
+        .card-body{
+            border: none;
+        }
+    }
 }
