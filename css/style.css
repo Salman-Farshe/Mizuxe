@@ -54,9 +54,11 @@ body {
     margin-top: 2rem; }
 
 /* newsletter section  */
-.news button {
-  color: #fff;
-  background-color: #2082d3; }
+.news {
+  background-color: #122331ea; }
+  .news button {
+    color: #fff;
+    background-color: #2082d3; }
 
 /* box section  */
 .box {
