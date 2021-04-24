@@ -65,3 +65,9 @@ body {
   background-color: #fff; }
   .box .card .card-body {
     padding: 2rem 0rem; }
+
+/* about section  */
+.about .info-about {
+  width: 50%;
+  margin: auto;
+  border-bottom: 1px solid #3292a6cc; }
