@@ -1,0 +1,29 @@
+/* showcase section  */
+.showcase{
+    background-color: $color-light;
+    background: url('../../img/mountains.jpg') center center/cover;
+    min-height: 100%;
+    position: relative;
+    margin-top: 5rem;
+
+    & .overlay{
+        background: rgba($color: #3292a6cc, $alpha: 0.5);
+        width: 100%;
+        min-height: 100%;
+        object-fit: cover;
+    }
+    
+    .lead{
+        color: $color-light;
+        font-weight: 500;
+        margin: 1rem auto;
+        line-height: 1.6;
+        letter-spacing: 0.2rem;
+    }
+
+    button{
+        color: $color-light;
+        background-color: $primary-dark;
+        margin-top: 2rem;
+    }
+}

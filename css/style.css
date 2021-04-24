@@ -28,4 +28,27 @@ body {
       font-size: 1rem;
       font-weight: 600; }
       .navbar-nav .nav-item .nav-link:hover, .navbar-nav .nav-item .nav-link:focus {
-        color: rgba(50, 146, 166, 0.8); }
+        color: #3292a6cc; }
+
+/* showcase section  */
+.showcase {
+  background-color: #fff;
+  background: url("../../img/mountains.jpg") center center/cover;
+  min-height: 100%;
+  position: relative;
+  margin-top: 5rem; }
+  .showcase .overlay {
+    background: rgba(50, 146, 166, 0.5);
+    width: 100%;
+    min-height: 100%;
+    object-fit: cover; }
+  .showcase .lead {
+    color: #fff;
+    font-weight: 500;
+    margin: 1rem auto;
+    line-height: 1.6;
+    letter-spacing: 0.2rem; }
+  .showcase button {
+    color: #fff;
+    background-color: #2082d3;
+    margin-top: 2rem; }
