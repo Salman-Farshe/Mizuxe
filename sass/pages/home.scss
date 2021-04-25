@@ -83,3 +83,28 @@
         }
     }
 }
+
+
+/* author section */
+.author{
+    background-color: $color-light;
+
+    img{
+        margin-top: -20%;
+    }
+
+    .card{
+        margin: 3rem auto;
+        background: #f0f0f0;
+        &:hover{
+            background-color: $primary-color;
+            color: $color-light;
+            transition: 0.5s;
+    
+            & a{
+                color: #fff;
+            }
+        }
+    }
+
+}

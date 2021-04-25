@@ -89,3 +89,18 @@ body {
 
 .about .accordion .card-body {
   border: none; }
+
+/* author section */
+.author {
+  background-color: #fff; }
+  .author img {
+    margin-top: -20%; }
+  .author .card {
+    margin: 3rem auto;
+    background: #f0f0f0; }
+    .author .card:hover {
+      background-color: #3292a6;
+      color: #fff;
+      transition: 0.5s; }
+      .author .card:hover a {
+        color: #fff; }
